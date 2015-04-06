@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: this is to inform the Git system to start accepting future commits to this version-control directory (or simply the folder), without intitlaizing it won't accept future commits and then it won't be able to record the history and track the file and save their erly versions.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: it is a temporary place for the logically connected files to be pushed into the tracking together by using a single commit
+the working directory is parmenant, not temporary. The repository contains all the snapshots (commets) of the differant versions of the working direcotry.
