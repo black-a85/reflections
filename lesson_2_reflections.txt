@@ -18,4 +18,9 @@ Q: What is the result of merging two branches together? Why do we represent it i
 A: the result will be a new commit that contains the addition from both 2 commits compared to the origianl commit they both branched from (the last commit they share in their log history), the lines that was added in any of the commits will be there and the line removed by any of the commits will be removed in the result commit.
 the diagram will show where the branch happend and what changes were done to each branch before they got merged.
 
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A:	pros:	it save time
+			easier to do
+	cons:	it may not detect a conflict that will cause the program to crash or not compile.
+
 Q: 
