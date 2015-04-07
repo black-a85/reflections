@@ -9,4 +9,7 @@ A: Forks are for copying the repositories of someone else that im not a contribu
 Clone is to copying any repositories i made to other places.
 Branch is to make new way in the repositories I'm working in to test new things.
 
-Q: 
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: it allow us to compre the changes we did localy with the one we expect to be on the remote, without being online.
+
+Q:
