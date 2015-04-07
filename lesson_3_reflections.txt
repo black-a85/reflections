@@ -4,4 +4,9 @@ A: this would be much usefull if I'm working on multible devices and platforms, 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: this wouold be very dangoures, i may pull some changes that others did while i don't want them now, as they may affect the testing i do for the work in may hand.
 
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Forks are for copying the repositories of someone else that im not a contributer in it and start using the code (or the files) to make my own.
+Clone is to copying any repositories i made to other places.
+Branch is to make new way in the repositories I'm working in to test new things.
+
 Q: 
