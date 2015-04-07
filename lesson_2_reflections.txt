@@ -3,4 +3,19 @@ A: this is to inform the Git system to start accepting future commits to this ve
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: it is a temporary place for the logically connected files to be pushed into the tracking together by using a single commit
-the working directory is parmenant, not temporary. The repository contains all the snapshots (commets) of the differant versions of the working direcotry.
+(wrong) the working directory is parmenant, not temporary. The repository contains all the snapshots (commets) of the differant versions of the working direcotry.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: the changes i did are in the working directory which may containt more than one change, then i start to add one file or group of files that represent one logical change, before commiting the change, i should use git diff to see that I'm going to push one logical change by seeing the deferance between the working directory and the staging area.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: when i want to add new thing but i want to develop the original project without the addition affecting the original project(like it may interduce bugs or take time that i will find bugs in the original project during it that i need to modify before completing the addition), so i can make the branch and use the git checout <branch name> and then work on it and when i need to modify my original project i will just use git checkout master to return to it and work on it.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: it give u a better look for each branch and where it did branch from, so we will know what features is in each branch and isn't.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: the result will be a new commit that contains the addition from both 2 commits compared to the origianl commit they both branched from (the last commit they share in their log history), the lines that was added in any of the commits will be there and the line removed by any of the commits will be removed in the result commit.
+the diagram will show where the branch happend and what changes were done to each branch before they got merged.
+
+Q: 
