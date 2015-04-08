@@ -15,4 +15,6 @@ A: it allow us to compre the changes we did localy with the one we expect to be 
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A: for coding projects, i will have to send the code i made each time i change something to my collaborators through e-mails or maybe use share documentation on google docs or dropbox, for sure now i see that Git is much easier than other obtions (that fetch command is really usefull)
 
-Q: 
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: i do changes in separate branch to allow me to request a pull on that change before i actually put it in the master, that will be important when i collaborate with other as the master should be modified while other collaborater are aware of the modifications.
+the downside is that if the work you are doing on the branch takes time, the master may be changed several times before you finish by other collaborators pull requests, this will force you to always check, fetch, pull and merge the updated master into your branch which may sometime take time.
