@@ -12,4 +12,7 @@ Branch is to make new way in the repositories I'm working in to test new things.
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: it allow us to compre the changes we did localy with the one we expect to be on the remote, without being online.
 
-Q:
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: for coding projects, i will have to send the code i made each time i change something to my collaborators through e-mails or maybe use share documentation on google docs or dropbox, for sure now i see that Git is much easier than other obtions (that fetch command is really usefull)
+
+Q: 
